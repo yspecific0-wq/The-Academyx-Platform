@@ -14,7 +14,7 @@ def assign_admin_role(apps, schema_editor):
 
 class Migration(migrations.Migration):
     dependencies = [
-        ('accounts', '0009_merge_20260211_...'), # Update this with your actual merge filename
+    ('accounts', '0009_merge_20260211_1734'), # Use your EXACT filename here
     ]
 
     operations = [
