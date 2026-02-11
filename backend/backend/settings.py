@@ -26,8 +26,18 @@ SECRET_KEY = 'django-insecure-#=2bt2(lsb#u(&i4a8i=(kz^5t-pd*v@bwq^r4f&vi$jpx0sf3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['your-app.onrender.com', 'localhost', '127.0.0.1']
+#ALLOWED_HOSTS = ['your-app.onrender.com', 'localhost', '127.0.0.1']
 
+AALLOWED_HOSTS = [
+    'academyx-backend-1hdu.onrender.com', 
+    'the-academyx-platform.vercel.app',
+    'localhost',
+    '127.0.0.1'
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "https://the-academyx-platform.vercel.app",
+]
 
 # Application definition
 
@@ -130,10 +140,10 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-CORS_ALLOWED_ORIGINS = [
-    "https://the-academyx-platform.vercel.app",
-    "http://localhost:5173",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://the-academyx-platform.vercel.app",
+#     "http://localhost:5173",
+# ]
 
 
 # Static files (CSS, JavaScript, Images)
