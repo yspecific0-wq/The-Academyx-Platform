@@ -28,7 +28,7 @@ DEBUG = False
 
 #ALLOWED_HOSTS = ['your-app.onrender.com', 'localhost', '127.0.0.1']
 
-AALLOWED_HOSTS = [
+ALLOWED_HOSTS = [
     'academyx-backend-1hdu.onrender.com', 
     'the-academyx-platform.vercel.app',
     'localhost',
