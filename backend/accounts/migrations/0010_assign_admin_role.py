@@ -9,7 +9,7 @@ def assign_admin_role(apps, schema_editor):
         # This ensures the admin user has a profile with the correct role
         UserProfile.objects.get_or_create(
             user=admin_user,
-            defaults={'role': 'ADMIN'} # Matches your roleMenus logic
+            defaults={'role': 'SCHOOL_ADMIN'} # Matches your roleMenus logic
         )
 
 class Migration(migrations.Migration):
