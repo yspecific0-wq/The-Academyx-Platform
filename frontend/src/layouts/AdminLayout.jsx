@@ -55,7 +55,7 @@ const AdminLayout = () => {
     ]
   };
 
-  const menuItems = roleMenus[userRole] || roleMenus["ADMIN"];
+  const menuItems = roleMenus[userRole] || roleMenus["SCHOOL_ADMIN"];
 
   const handleLogout = () => {
     localStorage.clear();
